@@ -16,7 +16,7 @@ class Task extends PluginTask{
     }
 
 
-    public function onRun($tick){
+    public function onRun(int $tick){
         $this->plugin->timer();
     }
 }
